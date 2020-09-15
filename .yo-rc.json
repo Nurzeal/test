@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.henry.webcv",
+      "nativeLanguage": "fr"
+    },
+    "jhipsterVersion": "6.10.1",
+    "applicationType": "monolith",
+    "baseName": "test",
+    "packageName": "com.henry.webcv",
+    "packageFolder": "com/henry/webcv",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "no",
+    "devDatabaseType": "no",
+    "prodDatabaseType": "no",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "OTdiODA0YjYyZTc0MWI1YmI1NTJkMzU5MTFjN2UxYjM0YzZiMDdkZjRkNzQ5MzE5ZDM4OGY3NjIxNzk2YWE3YzkwZmNmNDdmODI4NmZiMjBmMzE4ZmYyODk5MTZmMjVhMTZhZTYwYzFmMGNlNDU2ZGFhNzUwYzQzYjFlYmQyZDE=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "creationTimestamp": 1600197013183,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "fr",
+    "languages": ["fr", "en"],
+    "blueprints": []
+  }
+}
