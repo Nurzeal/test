@@ -1,0 +1,958 @@
+.DNATIME {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  width: 850px;
+  height: 1700px;
+  background: url('/../../content/images/adncv.png') no-repeat center top;
+  background-size: contain;
+  z-index: -1;
+}
+
+.bac {
+  position: relative;
+  bottom: 1685px;
+  right: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px white;
+}
+
+.stage1 {
+  position: relative;
+  bottom: 1615px;
+  right: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px white;
+}
+
+.bts {
+  position: relative;
+  bottom: 1550px;
+  right: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px white;
+}
+
+.stage2 {
+  position: relative;
+  bottom: 1410px;
+  right: -12px;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px white;
+}
+
+.stage3 {
+  position: relative;
+  bottom: 1345px;
+  right: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px white;
+}
+.lp {
+  position: relative;
+  bottom: 1275px;
+  right: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px white;
+}
+.stage4 {
+  position: relative;
+  bottom: 1200px;
+  right: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px white;
+}
+.master {
+  position: relative;
+  bottom: 1140px;
+  right: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px white;
+}
+.livreur {
+  position: relative;
+  bottom: 995px;
+  right: -12px;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px white;
+}
+.projet {
+  position: relative;
+  bottom: 930px;
+  right: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px white;
+}
+
+.java {
+  position: relative;
+  bottom: 855px;
+  right: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px white;
+}
+
+.adaming {
+  position: relative;
+  bottom: 785px;
+  right: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px white;
+}
+
+.inconnue1 {
+  position: relative;
+  bottom: 722px;
+  right: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px white;
+}
+
+.inconnue2 {
+  position: relative;
+  bottom: 575px;
+  right: -12px;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px white;
+}
+
+.inconnue3 {
+  position: relative;
+  bottom: 510px;
+  right: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px white;
+}
+
+.person {
+  position: relative;
+  cursor: pointer;
+  .name {
+  }
+  .hovercard {
+    visibility: hidden;
+    transition: visibility 400ms ease-out;
+    &:hover {
+      visibility: visible;
+    }
+  }
+  &:hover,
+  .name:hover {
+    .hovercard {
+      visibility: visible;
+    }
+    .name {
+    }
+  }
+}
+
+.hovercard {
+  position: absolute;
+  left: -670px;
+  top: -200px;
+  z-index: 500;
+  display: block;
+  .hovercard-container {
+    position: relative;
+    padding-top: 30px;
+    z-index: 450;
+    &:before {
+      content: ' ';
+      display: block;
+      left: 0;
+      right: 0;
+      top: 30px;
+      bottom: 0;
+      position: absolute;
+      box-shadow: 0 10px 15px rgba(black, 0.2), 0 4px 5px rgba(black, 0.1), 0 0 0 1px rgba(black, 0.07);
+      border-radius: 0px;
+    }
+  }
+  .hovercard-box {
+    z-index: 470;
+    background: white;
+    position: relative;
+    .hovercard-body {
+      min-height: 140px;
+      width: 500px;
+      background: white;
+      background-size: cover;
+      z-index: 500;
+      display: block;
+    }
+  }
+}
+
+.person {
+  position: relative;
+  cursor: pointer;
+  .name {
+  }
+  .hovercard2 {
+    visibility: hidden;
+    transition: visibility 400ms ease-out;
+    &:hover {
+      visibility: visible;
+    }
+  }
+  &:hover,
+  .name:hover {
+    .hovercard2 {
+      visibility: visible;
+    }
+    .name {
+    }
+  }
+}
+
+.hovercard2 {
+  position: absolute;
+  left: 295px;
+  top: -200px;
+  z-index: 500;
+  display: block;
+  .hovercard-container2 {
+    position: relative;
+    padding-top: 30px;
+    z-index: 450;
+    &:before {
+      content: ' ';
+      display: block;
+      left: 0;
+      right: 0;
+      top: 30px;
+      bottom: 0;
+      position: absolute;
+      box-shadow: 0 10px 15px rgba(black, 0.2), 0 4px 5px rgba(black, 0.1), 0 0 0 1px rgba(black, 0.07);
+      border-radius: 0px;
+    }
+  }
+  .hovercard-box2 {
+    z-index: 470;
+    background: white;
+    position: relative;
+    .hovercard-body2 {
+      min-height: 140px;
+      width: 500px;
+      background: white;
+      z-index: 500;
+      display: block;
+    }
+  }
+}
+
+.person {
+  position: relative;
+  cursor: pointer;
+  .name {
+  }
+  .hovercard3 {
+    visibility: hidden;
+    transition: visibility 400ms ease-out;
+    &:hover {
+      visibility: visible;
+    }
+  }
+  &:hover,
+  .name:hover {
+    .hovercard3 {
+      visibility: visible;
+    }
+    .name {
+    }
+  }
+}
+
+.hovercard3 {
+  position: absolute;
+  left: -660px;
+  top: -200px;
+  z-index: 500;
+  display: block;
+  .hovercard-container3 {
+    position: relative;
+    padding-top: 30px;
+    z-index: 450;
+    &:before {
+      content: ' ';
+      display: block;
+      left: 0;
+      right: 0;
+      top: 30px;
+      bottom: 0;
+      position: absolute;
+      box-shadow: 0 10px 15px rgba(black, 0.2), 0 4px 5px rgba(black, 0.1), 0 0 0 1px rgba(black, 0.07);
+      border-radius: 0px;
+    }
+  }
+  .hovercard-box3 {
+    z-index: 470;
+    background: white;
+    position: relative;
+    .hovercard-body3 {
+      min-height: 140px;
+      width: 500px;
+      background: white;
+      background-size: cover;
+      z-index: 500;
+      display: block;
+    }
+  }
+}
+
+.person {
+  position: relative;
+  cursor: pointer;
+  .name {
+  }
+  .hovercard4 {
+    visibility: hidden;
+    transition: visibility 400ms ease-out;
+    &:hover {
+      visibility: visible;
+    }
+  }
+  &:hover,
+  .name:hover {
+    .hovercard4 {
+      visibility: visible;
+    }
+    .name {
+    }
+  }
+}
+
+.hovercard4 {
+  position: absolute;
+  left: 260px;
+  top: -200px;
+  z-index: 500;
+  display: block;
+  .hovercard-container4 {
+    position: relative;
+    padding-top: 30px;
+    z-index: 450;
+    &:before {
+      content: ' ';
+      display: block;
+      left: 0;
+      right: 0;
+      top: 30px;
+      bottom: 0;
+      position: absolute;
+      box-shadow: 0 10px 15px rgba(black, 0.2), 0 4px 5px rgba(black, 0.1), 0 0 0 1px rgba(black, 0.07);
+      border-radius: 0px;
+    }
+  }
+  .hovercard-box4 {
+    z-index: 470;
+    background: white;
+    position: relative;
+    .hovercard-body4 {
+      min-height: 140px;
+      width: 500px;
+      background: white;
+      z-index: 500;
+      display: block;
+    }
+  }
+}
+
+.person {
+  position: relative;
+  cursor: pointer;
+  .name {
+  }
+  .hovercard5 {
+    visibility: hidden;
+    transition: visibility 400ms ease-out;
+    &:hover {
+      visibility: visible;
+    }
+  }
+  &:hover,
+  .name:hover {
+    .hovercard5 {
+      visibility: visible;
+    }
+    .name {
+    }
+  }
+}
+
+.hovercard5 {
+  position: absolute;
+  left: -705px;
+  top: -200px;
+  z-index: 500;
+  display: block;
+  .hovercard-container5 {
+    position: relative;
+    padding-top: 30px;
+    z-index: 450;
+    &:before {
+      content: ' ';
+      display: block;
+      left: 0;
+      right: 0;
+      top: 30px;
+      bottom: 0;
+      position: absolute;
+      box-shadow: 0 10px 15px rgba(black, 0.2), 0 4px 5px rgba(black, 0.1), 0 0 0 1px rgba(black, 0.07);
+      border-radius: 0px;
+    }
+  }
+  .hovercard-box5 {
+    z-index: 470;
+    background: white;
+    position: relative;
+    .hovercard-body5 {
+      min-height: 140px;
+      width: 500px;
+      background: white;
+      background-size: cover;
+      z-index: 500;
+      display: block;
+    }
+  }
+}
+
+.person {
+  position: relative;
+  cursor: pointer;
+  .name {
+  }
+  .hovercard6 {
+    visibility: hidden;
+    transition: visibility 400ms ease-out;
+    &:hover {
+      visibility: visible;
+    }
+  }
+  &:hover,
+  .name:hover {
+    .hovercard6 {
+      visibility: visible;
+    }
+    .name {
+    }
+  }
+}
+
+.hovercard6 {
+  position: absolute;
+  left: 320px;
+  top: -200px;
+  z-index: 500;
+  display: block;
+  .hovercard-container6 {
+    position: relative;
+    padding-top: 30px;
+    z-index: 450;
+    &:before {
+      content: ' ';
+      display: block;
+      left: 0;
+      right: 0;
+      top: 30px;
+      bottom: 0;
+      position: absolute;
+      box-shadow: 0 10px 15px rgba(black, 0.2), 0 4px 5px rgba(black, 0.1), 0 0 0 1px rgba(black, 0.07);
+      border-radius: 0px;
+    }
+  }
+  .hovercard-box6 {
+    z-index: 470;
+    background: white;
+    position: relative;
+    .hovercard-body6 {
+      min-height: 140px;
+      width: 500px;
+      background: white;
+      z-index: 500;
+      display: block;
+    }
+  }
+}
+
+.person {
+  position: relative;
+  cursor: pointer;
+  .name {
+  }
+  .hovercard7 {
+    visibility: hidden;
+    transition: visibility 400ms ease-out;
+    &:hover {
+      visibility: visible;
+    }
+  }
+  &:hover,
+  .name:hover {
+    .hovercard7 {
+      visibility: visible;
+    }
+    .name {
+    }
+  }
+}
+
+.hovercard7 {
+  position: absolute;
+  left: -705px;
+  top: -200px;
+  z-index: 500;
+  display: block;
+  .hovercard-container7 {
+    position: relative;
+    padding-top: 30px;
+    z-index: 450;
+    &:before {
+      content: ' ';
+      display: block;
+      left: 0;
+      right: 0;
+      top: 30px;
+      bottom: 0;
+      position: absolute;
+      box-shadow: 0 10px 15px rgba(black, 0.2), 0 4px 5px rgba(black, 0.1), 0 0 0 1px rgba(black, 0.07);
+      border-radius: 0px;
+    }
+  }
+  .hovercard-box7 {
+    z-index: 470;
+    background: white;
+    position: relative;
+    .hovercard-body7 {
+      min-height: 140px;
+      width: 500px;
+      background: white;
+      background-size: cover;
+      z-index: 500;
+      display: block;
+    }
+  }
+}
+
+.person {
+  position: relative;
+  cursor: pointer;
+  .name {
+  }
+  .hovercard8 {
+    visibility: hidden;
+    transition: visibility 400ms ease-out;
+    &:hover {
+      visibility: visible;
+    }
+  }
+  &:hover,
+  .name:hover {
+    .hovercard8 {
+      visibility: visible;
+    }
+    .name {
+    }
+  }
+}
+
+.hovercard8 {
+  position: absolute;
+  left: 310px;
+  top: -200px;
+  z-index: 500;
+  display: block;
+  .hovercard-container8 {
+    position: relative;
+    padding-top: 30px;
+    z-index: 450;
+    &:before {
+      content: ' ';
+      display: block;
+      left: 0;
+      right: 0;
+      top: 30px;
+      bottom: 0;
+      position: absolute;
+      box-shadow: 0 10px 15px rgba(black, 0.2), 0 4px 5px rgba(black, 0.1), 0 0 0 1px rgba(black, 0.07);
+      border-radius: 0px;
+    }
+  }
+  .hovercard-box8 {
+    z-index: 470;
+    background: white;
+    position: relative;
+    .hovercard-body8 {
+      min-height: 140px;
+      width: 500px;
+      background: white;
+      z-index: 500;
+      display: block;
+    }
+  }
+}
+
+.person {
+  position: relative;
+  cursor: pointer;
+  .name {
+  }
+  .hovercard9 {
+    visibility: hidden;
+    transition: visibility 400ms ease-out;
+    &:hover {
+      visibility: visible;
+    }
+  }
+  &:hover,
+  .name:hover {
+    .hovercard9 {
+      visibility: visible;
+    }
+    .name {
+    }
+  }
+}
+
+.hovercard9 {
+  position: absolute;
+  left: -725px;
+  top: -200px;
+  z-index: 500;
+  display: block;
+  .hovercard-container9 {
+    position: relative;
+    padding-top: 30px;
+    z-index: 450;
+    &:before {
+      content: ' ';
+      display: block;
+      left: 0;
+      right: 0;
+      top: 30px;
+      bottom: 0;
+      position: absolute;
+      box-shadow: 0 10px 15px rgba(black, 0.2), 0 4px 5px rgba(black, 0.1), 0 0 0 1px rgba(black, 0.07);
+      border-radius: 0px;
+    }
+  }
+  .hovercard-box9 {
+    z-index: 470;
+    background: white;
+    position: relative;
+    .hovercard-body9 {
+      min-height: 140px;
+      width: 500px;
+      background: white;
+      background-size: cover;
+      z-index: 500;
+      display: block;
+    }
+  }
+}
+
+.person {
+  position: relative;
+  cursor: pointer;
+  .name {
+  }
+  .hovercard10 {
+    visibility: hidden;
+    transition: visibility 400ms ease-out;
+    &:hover {
+      visibility: visible;
+    }
+  }
+  &:hover,
+  .name:hover {
+    .hovercard10 {
+      visibility: visible;
+    }
+    .name {
+    }
+  }
+}
+
+.hovercard10 {
+  position: absolute;
+  left: 320px;
+  top: -200px;
+  z-index: 500;
+  display: block;
+  .hovercard-container10 {
+    position: relative;
+    padding-top: 30px;
+    z-index: 450;
+    &:before {
+      content: ' ';
+      display: block;
+      left: 0;
+      right: 0;
+      top: 30px;
+      bottom: 0;
+      position: absolute;
+      box-shadow: 0 10px 15px rgba(black, 0.2), 0 4px 5px rgba(black, 0.1), 0 0 0 1px rgba(black, 0.07);
+      border-radius: 0px;
+    }
+  }
+  .hovercard-box10 {
+    z-index: 470;
+    background: white;
+    position: relative;
+    .hovercard-body10 {
+      min-height: 140px;
+      width: 500px;
+      background: white;
+      z-index: 500;
+      display: block;
+    }
+  }
+}
+
+.person {
+  position: relative;
+  cursor: pointer;
+  .name {
+  }
+  .hovercard11 {
+    visibility: hidden;
+    transition: visibility 400ms ease-out;
+    &:hover {
+      visibility: visible;
+    }
+  }
+  &:hover,
+  .name:hover {
+    .hovercard11 {
+      visibility: visible;
+    }
+    .name {
+    }
+  }
+}
+
+.hovercard11 {
+  position: absolute;
+  left: -655px;
+  top: -200px;
+  z-index: 500;
+  display: block;
+  .hovercard-container11 {
+    position: relative;
+    padding-top: 30px;
+    z-index: 450;
+    &:before {
+      content: ' ';
+      display: block;
+      left: 0;
+      right: 0;
+      top: 30px;
+      bottom: 0;
+      position: absolute;
+      box-shadow: 0 10px 15px rgba(black, 0.2), 0 4px 5px rgba(black, 0.1), 0 0 0 1px rgba(black, 0.07);
+      border-radius: 0px;
+    }
+  }
+  .hovercard-box11 {
+    z-index: 470;
+    background: white;
+    position: relative;
+    .hovercard-body11 {
+      min-height: 140px;
+      width: 500px;
+      background: white;
+      background-size: cover;
+      z-index: 500;
+      display: block;
+    }
+  }
+}
+
+.person {
+  position: relative;
+  cursor: pointer;
+  .name {
+  }
+  .hovercard12 {
+    visibility: hidden;
+    transition: visibility 400ms ease-out;
+    &:hover {
+      visibility: visible;
+    }
+  }
+  &:hover,
+  .name:hover {
+    .hovercard12 {
+      visibility: visible;
+    }
+    .name {
+    }
+  }
+}
+
+.hovercard12 {
+  position: absolute;
+  left: 340px;
+  top: -200px;
+  z-index: 500;
+  display: block;
+  .hovercard-container12 {
+    position: relative;
+    padding-top: 30px;
+    z-index: 450;
+    &:before {
+      content: ' ';
+      display: block;
+      left: 0;
+      right: 0;
+      top: 30px;
+      bottom: 0;
+      position: absolute;
+      box-shadow: 0 10px 15px rgba(black, 0.2), 0 4px 5px rgba(black, 0.1), 0 0 0 1px rgba(black, 0.07);
+      border-radius: 0px;
+    }
+  }
+  .hovercard-box12 {
+    z-index: 470;
+    background: white;
+    position: relative;
+    .hovercard-body12 {
+      min-height: 140px;
+      width: 500px;
+      background: white;
+      z-index: 500;
+      display: block;
+    }
+  }
+}
+.person {
+  position: relative;
+  cursor: pointer;
+  .name {
+  }
+  .hovercard13 {
+    visibility: hidden;
+    transition: visibility 400ms ease-out;
+    &:hover {
+      visibility: visible;
+    }
+  }
+  &:hover,
+  .name:hover {
+    .hovercard13 {
+      visibility: visible;
+    }
+    .name {
+    }
+  }
+}
+
+.hovercard13 {
+  position: absolute;
+  left: -640px;
+  top: -200px;
+  z-index: 500;
+  display: block;
+  .hovercard-container13 {
+    position: relative;
+    padding-top: 30px;
+    z-index: 450;
+    &:before {
+      content: ' ';
+      display: block;
+      left: 0;
+      right: 0;
+      top: 30px;
+      bottom: 0;
+      position: absolute;
+      box-shadow: 0 10px 15px rgba(black, 0.2), 0 4px 5px rgba(black, 0.1), 0 0 0 1px rgba(black, 0.07);
+      border-radius: 0px;
+    }
+  }
+  .hovercard-box13 {
+    z-index: 470;
+    background: white;
+    position: relative;
+    .hovercard-body13 {
+      min-height: 140px;
+      width: 500px;
+      background: white;
+      background-size: cover;
+      z-index: 500;
+      display: block;
+    }
+  }
+}
+
+.person {
+  position: relative;
+  cursor: pointer;
+  .name {
+  }
+  .hovercard14 {
+    visibility: hidden;
+    transition: visibility 400ms ease-out;
+    &:hover {
+      visibility: visible;
+    }
+  }
+  &:hover,
+  .name:hover {
+    .hovercard14 {
+      visibility: visible;
+    }
+    .name {
+    }
+  }
+}
+
+.hovercard14 {
+  position: absolute;
+  left: 285px;
+  top: -200px;
+  z-index: 500;
+  display: block;
+  .hovercard-container14 {
+    position: relative;
+    padding-top: 30px;
+    z-index: 450;
+    &:before {
+      content: ' ';
+      display: block;
+      left: 0;
+      right: 0;
+      top: 30px;
+      bottom: 0;
+      position: absolute;
+      box-shadow: 0 10px 15px rgba(black, 0.2), 0 4px 5px rgba(black, 0.1), 0 0 0 1px rgba(black, 0.07);
+      border-radius: 0px;
+    }
+  }
+  .hovercard-box14 {
+    z-index: 470;
+    background: white;
+    position: relative;
+    .hovercard-body14 {
+      min-height: 140px;
+      width: 500px;
+      background: white;
+      z-index: 500;
+      display: block;
+    }
+  }
+}

@@ -1,9 +1,12 @@
 {
   "global": {
-    "title": "Test",
+    "title": "Kilian HENRY",
     "browsehappy": "Vous utilisez un <strong>ancien</strong> navigateur. Veuillez <a href=\"http://browsehappy.com/?locale=fr\">mettre à jour votre navigateur</a> pour une meilleure expérience.",
     "menu": {
-      "home": "Accueil",
+      "home": "Page d'accueil",
+      "cv": "CV",
+      "competences" : "Compétences",
+      "contact": "Contact",
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Entités",
@@ -116,8 +119,7 @@
       "maxbytes": "Ce champ doit être inférieur à {{max}} bytes.",
       "pattern": "Ce champ doit suivre l'expression régulière {{pattern}}.",
       "number": "Ce champ doit être un nombre.",
-      "datetimelocal": "Ce champ doit être une date et une heure.",
-      "patternLogin": "Ce champ ne peut contenir que des lettres, des chiffres ou des adresses e-mail."
+      "datetimelocal": "Ce champ doit être une date et une heure."
     }
   },
   "error": {
@@ -128,12 +130,292 @@
     "Size": "Le champ {{fieldName}} ne respecte pas les critères minimum et maximum !",
     "userexists": "Login déjà utilisé !",
     "emailexists": "Email déjà utilisé !",
-    "idexists": "Une nouvelle entité {{entityName}} ne peut pas avoir d'identifiant !",
-    "idnull": "Identifiant invalide",
-    "file": {
-      "could.not.extract": "Impossible d'extraire le fichier",
-      "not.image": "Le fichier doit être une image et non du type \"{{ fileType }}\""
-    }
+    "idexists": "Une nouvelle entité {{entityName}} ne peut pas avoir d'ID !",
+    "idnull": "Invalid ID"
   },
-  "footer": "Ceci est votre pied de page"
+  "footer": {
+    "liens": "Me suivre :",
+    "coordonées": "Mes coordonées",
+    "contact": "&emsp; Contact",
+    "telecharger": "Télécharger mon CV",
+    "mention": "Mentions légales",
+    "langue": "Langue :",
+    "texte1": " Merci d'avoir visité mon site CV. Mon profil vous interesse ? Vous pouvez me contacter via la page dédiée. Je me tiens à votre disposition pour de plus amples renseignements.",
+    "texte2": " Tout commentaires ou remarques concernant ma page sont égalements bienvenus !",
+    "droits": " Kilian HENRY - 2020 - Tous droits réservés"
+  },
+  "CV": {
+      "titrecv" : "Curriculum vitae",
+      "exppro" : "Expérience professionnelle",
+      "parcours" : "Mon histoire",
+      "formation" : "Cursus universitaire et formations",
+      "chrono" : "Chronologie",
+      "taches" : "Tâches réalisées :",
+      "commentaires" : "Commentaires :",
+      "com" : "Cette chronologie est non exhaustive et représente les éléments les plus importants de mon parcours universitaire et professionnel.",
+      
+      "1" : {
+        "l1": "BAC Technologique 'Sciences et Techniques de l'Agronomie et du Vivant'",
+        "l2": "Option 'Transformation Alimentaire'",
+        "l3": "2009 - 2013 (4 ans)",
+        "l4": "Intéressé depuis mon enfance par le monde agricole et suite à mon stage découverte de troisième au sein d'une ferme, j'ai décidé d'effectuer mon baccalauréat dans ce milieu. L'option 'transformation alimentaire' proposée par le lycée a attiré ma curiosité, et les enseignements dispensés ainsi que les nombreux travaux pratiques d'une filière technologique m'ont convaincu de poursuivre dans ce domaine. Ce fut aussi l'opportunité d'approcher le monde professionnel par la réalisation de 5 semaines de stage ouvrier.  "
+      },
+    
+      "2" : {
+      "l1": "Stage en entreprise",
+      "l2": "Sujet : Quelles sont les différences de fabrication entre deux types de fromages (fromage blanc et Neufchâtel) ?",
+      "l3": "Respectivement 3 semaines et 2 semaines",
+      "l4": "La problématique de ce stage était de comparer les différences de fabrication entre deux produits avec l'appelation 'fromage'. Pour ce faire, j'ai participé a la fabrication sur deux sites différents afin d'étudier les process propres à chacuns",
+      "l5": "Analyse et rédaction de process de fabrication propres à chaque produit",
+      "l6": "Fabrications de produits laitiers (crème, fromage blanc, coeur de Neufchâtel) et cidricole (jus de pommes, cidre, Calvados)",
+      "l7": "Préparation de repas pour le restaurant de la ferme du Beau Soleil",
+      "l8": "Emballage, mise en bouteille et étiquetage des produits",
+      "l9": "Première réelle expérience dans le monde de l'entreprise, ce fut pour moi l'occasion d'apprendre sur le terrain avec des gens passionnés par leurs métiers."
+    },
+  
+    "3" : {
+      "l1": "BTS 'Sciences et Technologies des Aliments'",
+      "l2": "2013 - 2015 (2 ans)",
+      "l3": "Souhaitant développer mes acquis dans le secteur de la transformation agroalimentaire, j'ai decider de poursuivre avec un BTS 'Sciences et Technologies des Aliments'. C'est au cours de ces deux années d'études et grâce, d'une part à un module 'Innovation', et  d'autre part grâce au stage de 3 mois effectué dans une entreprise produisant de la confiture sur la recherche d'une méthode de conservation des pommes épluchées pour prévenir le brunissement enzymatique, qu'est né en moi une réelle passion pour la recherche et le développement."
+    },
+    
+    "4" : {
+      "l1": "Stage entreprise",
+      "l2": "2 semaines",
+      "l3": "Stage purement ouvrier au sein d'une chocolaterie de luxe.",
+      "l4": "Fabrication de chocolats",
+      "l5": "Contrôle qualité des produits en sortie de ligne",
+      "l6": "Encadrement de stagiaires",
+      "l7": "Ces deux semaines d'expériences supplémentaires m'ont permis de travailler au sein d'une petite équipe possédant un savoir-faire reconnu à l'international, sur une catégorie de produits que je n'avais alors pas eu l'occasion d'approcher.  "
+    },
+  
+    "5" : {
+      "l1": "Stage en entreprise",
+      "l2": "Sujet : Recherche d'une methode de conservation des pommes épluchées contre le brunissement enzymatique.",
+      "l3": "Juin / juillet 2014 - Mars 2015",
+      "l4": "L'épluchage des pommes étant une étape nécessitant un temps de preparation de nettoyage et désinfection de la machine conséquent, il est préférable d'en éplucher la quantité la plus importante possible. Cependant, les pommes épluchées étant soumises au brunissement enzymatiques présentent des qualités organoleptiques dégradées. Ma mission principale était donc de trouver une méthode de conservation permettant la preservation des pommes",
+      "l5": "Réalisation de bibliographie sur les méthodes de conservation de pommes épluchées",
+      "l6": "Recherche et contact de fournisseurs de matériels et matières premières",
+      "l7": "Mise au point d'un plan d'expérience et analyse des résultats des diverses méthodes",
+      "l8": "Création d'un tableur excel évolutif permettant la comparaison des tarifs des différents fournisseurs de matières premières",
+      "l9": "Transformation et conditionnement de confitures, gelée et chutney",
+      "l10": "Parmi les méthodes proposées et testées (Mise sous vide ou sous atmosphère modifiée, surgélation, blanchiment, et utilisation d'additifs tels que l'acide ascorbique et les sulfites), c'est la mise sous vide qui a été retenue en tenant compte du résultat, du coût de la méthode et de la qualité du produit final. Le classeur excel de comparaisons de fournisseurs est également en place au sein de l'entreprise. Ce stage a donc été l'occasion d'appréhender concrètement le domaine de la recherche et du développement en tenant compte de la réalité des entreprises et des différents verrous inhérents (image du produit, coût, facilité de mise en oeuvre...)"
+    },
+   
+    "6" : {
+      "l1": "Licence professionnelle 'FODIPA'",
+      "l2": "2015 - 2016 (1 an)",
+      "l3": "Afin de me spécialiser dans le domaine 'R&D', j'ai suivi une licence professionnelle FODIPA dans l'optique de renforcer mes connaissances dans le domaine agroalimentaire et de développer la méthodologie propre à la recherche. Les nombreux travaux pratiques ainsi que le stage de 3 mois ont également contribué à accroitre mes compétences techniques."
+    },
+  
+    "7" : {
+      "l1": "Stage en entreprise",
+      "l2": "Réalisation d'un dossier de demande d'agrément sanitaire",
+      "l3": "De Juin à Septembre 2016 (stage de 3 mois), et Juillet-Aout 2017 (contrat étudiant de 2 mois)",
+      "l4": "Dans un cadre légal et présentant un avantage économique non négligeable, ma mission au 'Panier de Léonie' consistait en la réalisation d'un dossier de demande d'agrément sanitaire. Pour la réalisation de ce dernier, et avec l'aide de l'A.D.V.P.L.H.N, j'ai analysé tous les postes de transformation ainsi que les flux pour réaliser les documents légaux (HACCP, diagramme de fabrication, affiches GBPH...), tout en assurant la transformation des produits laitiers sur site et la livraison des commandes",
+      "l5": "Analyse des risques liés à la transformation alimentaire pour l’élaboration de la méthode « Hazard Analysis Critical Control Point » (HACCP)",
+      "l6": "Listing de flux et stockage des matières premières et produits finis, et réalisation de diagramme de fabrication pour chaque produit transformé.",
+      "l7": "Responsable des échanges avec l’A.D.V.P.L.H.N pour la réalisation du dossier de demande d’agrément sanitaire",
+      "l8": "Mise en place d’un système de traçabilité des produits pour établir les procédures de retrait/rappelle",
+      "l9": "Transformation de glaces et sorbet, produits laitiers (fromage blanc, beurre, crème...)",
+      "l10": "Livraison des denrées alimentaires aux différents clients (restaurants, GMS...)",
+      "l11": "Création de fiches de « Bonnes pratiques d’hygiènes » consultables sur site",
+      "l12": "Tous les documents nécessaires à la réalisation du dossier de demande d'agrément sanitaire ont été réalisés sur la durée du stage. Le dossier a été mis en forme et transmis à l'A.D.V.P.L.H.N pour évaluation. Lors de mon retour en 2017, les travaux sur les locaux étaient en cours afin de pouvoir soumettre et valider le dossier. Cela fut l'occasion de mettre le savoir acquis au cours de mon parcours scolaire en application pour le développement d'une entreprise, et ainsi d'apporter un regard neuf au sein d'une structure possédant une ambiance propice à l'épanouissement professionnel."
+    },
+  
+    "8" : {
+      "l1": "Licence 'Sciences de la Vie'",
+      "l2": "Parcours 'Biologie Moléculaire et cellulaire'",
+      "l3": "2016 - 2017 (1 an)",
+      "l4": "Désireux de poursuivre mes études en Master 'Nutrition et Sciences des Aliments', j'ai tout d'abord souhaité effectuer une licence 'Sciences de la Vie', option 'Biologie Moléculaire et Cellulaire' afin, d'une part, de disposer des connaissances théoriques en biologie nécessaire à la compréhension des mécanismes du Vivant, justifiant le besoin de développer l'alimentation moderne, et d'autre part, de me familiariser avec les spécificités de l'enseignement général. J'ai donc pu acquérir des nouvelles connaissances dans les domaines de la biologie moléculaire, animale et végétale, la bio-informatique, les biostatistiques, l'enzymologie, ainsi que de découvrir de nouvelles méthodes d'analyse en laboratoire."
+    },
+  
+    "9" : {
+      "l1": "Master 'Nutrition et Sciences des Aliments'",
+      "l2": "Parcours 'Innovation en Biotechnologies Végétales, Enymatiques, et Microbiologiques'",
+      "l3": "2017- 2019 (2 ans)",
+      "l4": "Ce Master recherche 'Nutrition et Sciences des Aliments', parcours 'Innovation en Biotechnologies Végétales, Enymatiques et Microbiologiques' représente l'aboutissement de mon cursus universitaire. Il m'a permis de développer mes connaissances dans les domaines de l'agroalimentaire, de la biologie et de la recherche et développement. Durant ces deux années, j'ai pu acquérir, par le biais de travaux pratiques ainsi que le projet de recherche, une méthodologie de travail propre au monde de la recherche."
+    },
+  
+    "10" : {
+      "l1": "Livreur polyvalent",
+      "l2": "De Décembre 2017 à Janvier 2020 (2 ans)",
+      "l3": "Travail étudiant en tant que livreur polyvalent sur le secteur de Lille (dans un rayon de 10km), en deux-roues et voiture.",
+      "l4": "Livraison de denrées alimentaires dans le respect des délais et des règles d'hygiène",
+      "l5": "Préparation des sacs de commandes",
+      "l6": "Formation des nouveaux arrivants",
+      "l7": "Rangement et organisation de la réserve",
+      "l8": "Dressage de la salle et plonge",
+      "l9": "Ce travail m'a énormément apporté vis-à-vis du relationnel client et du travail en équipe. Le respect des délais dans la livraison des denrées imposait parfois de devoir travailler sous pression, et une polyvalence était requise du fait des nombreuses tâches à effectuer."
+    },
+  
+    "11" : {
+      "l1": "Projet de recherche",
+      "l2": "Exploration et mise au point de la méthode de mutation CRISPR-Cas9 sur Paraburkholderia rhizoxinica. Application à l’interruption de gènes de NRPS.",
+      "l3": "De Janvier à Juin 2019 (6 mois)",
+      "l4": "Effectué sous l'encadrement du Dr Valérie LECLERE et Dr Matthieu DUBAN, ce projet de recherche consistait en la réalisation des éléments permettant l'interruption de trois gênes cibles NRPS ('Non Ribosomal Peptide Synthethase'). Pour ce faire, il a fallu utiliser les outils de la biologie moléculaire (PCR, transformation...), de la bio-informatique (Logiciel d'analyse de gel, de visualisation du génome bactérien...) et de la microbiologie (culture de la bactérie).",
+      "l5": "Importation de la méthode CRISPR-Cas9 et développement des outils de mutation pour bactéries GRAM négatif",
+      "l6": "Étude génomique de Paraburkholderia rhizoxinica et design d’amorces spécifiques",
+      "l7": "Mise en œuvre et optimisation de protocoles de biologie moléculaire",
+      "l8": "Utilisation de logiciels bio-informatiques pour la simulation et l’interprétation de résultats d’expériences.",
+      "l9": "Réalisation de recherches bibliographiques spécifiques au NRPS",
+      "l10": "Tous les outils de biologies moléculaires ont été réalisés pour permettre la mutation des gènes cibles. Cependant, les conditions de culture extrêmement difficiles (la bactérie étant initialement endosymbiotique d'un champignon) ainsi que le temps de génération ne m'ont pas permis de mener à termes la transformation de cette dernière sur la durée du projet. Le cadre pluridisciplinaire ainsi que les nombreux échanges que j'ai pu avoir avec des scientifiques de tous horizons m'ont fourni un cadre riche et propice à l'apprentissage mon épanouissement professionnel. De plus, ce fut pour moi l'occasion d'apporter ma contribution à la science. "
+    },
+  
+    "12" : {
+      "l1": "Formation JAVA/JEE Big Data",
+      "l2": "De Septembre 2019 à Janvier 2019 (4 mois)",
+      "l3": "A l'issu de l'obtention de mon diplôme, j'ai décider d'effectuer une formation de 57 jours pour appréhender le métier de développeur Fullstack, dans l'optique de faire monter mes compétences en informatique. La formation proposait du contenu allant du langage UML, de la programmation en backend (JAVA) avec les designs patterns, l'utilisation des frameworks JEE et Angular, l'architecture SOA et systèmes de gestion de bases de données tels qu'Oracle et MySQL, du frontend avec le langage HTML, CSS et Javascript."
+    },
+  
+    "13" : {
+      "l1": "Ingénieur étude et développement logiciel",
+      "l2": "Groupe ADAMING (Mission pour le compte de Sopra Steria) - Rodez (12)",
+      "l3": "Depuis Janvier 2020",
+      "l4": "Mission au sein d'un centre TMA (Tierce Maintenance Applicative) dans le milieu bancaire, mes tâches consistent principalement en la maintenance et l'évolution des applications en place au sein de la Société générale",
+      "l5": "Retro documentation et création de documentation applications",
+      "l6": "Réalisation de tests techniques, d’évolutions et correctifs logiciel",
+      "l7": "Chiffrage d'évolution",
+      "l8": "Au cours de cette expérience, j'ai pu me former au language COBOL et au Job Control Language (JCL). Cela a également été l'occasion de travailler sur des interfaces homme-machine en JAVA. J'ai donc pu appréhender de manière professionnelle le monde de l'informatique dans un cadre de méthode AGILE, dans un secteur où le respect des spécifications clients et des délais est primordial."
+    },
+
+    "ADN" : {
+      "1" : "Paire de bases inconnue",
+      "2" : "Dés que possible",
+      "3" : "Les nucléotides ne sont pas encore connus. Poursuivons ensemble le séquençage de mon CV.",
+      "4" : "Stage",
+      "5" : "Livreur",
+      "6" : "Projet de recherche",
+      "7" : "Ingenieur logiciel",
+      "8" : "bases inconnues",
+      "detail": "Passer le curseur sur chaque expérience pour avoir le détail"
+  }
+},
+
+  "contact": {
+      "contact" : "Contact",
+      "coordonées" : "Mes coordonées",
+      "form" : "Formulaire de contact"
+  },
+
+  "competences": {
+    "certif" : "Mes certifications",
+    "info" : "En informatique :",
+    "anglais" : "En anglais",
+    "titrecomp" : "Mes compétences et certifications",
+    "competences" : "Mes compétences",
+    "agroalimentaire" : "Agroalimentaire",
+    "biologie" : "Biologie",
+    "informatique" : "Informatique",
+    "r&d" : "R&D",
+  
+    "1" : {
+      "l1": "Transformation de produits",
+      "l2": "- Laitiers (fromages, glace et crème glacée, beurre, crème...)",
+      "l3": "- Cidricoles (jus de pommes, cidre, Calvados)",
+      "l4": "- Sucrées (Confiture et gelée, chocolats)",
+      "l5": " Genie industriel",
+      "l6": "- Utilisation de matériel échelle laboratoire et pilote (échangeur tubulaire, boule de concentration, autoclave, tour d'atomisation...)",
+      "l7": "- Connaissance de différentes opérations unitaires",
+      "l8": "- Maintenance de niveau 1",
+      "l9": "Analyses",
+      "l10": "- Microbiologiques",
+      "l11": "- Physico-chimiques",
+      "l12": "- Sensorielles",
+      "l13": "Normes et qualité",
+      "l14": "- Connaissance du 'paquet Hygiène'",
+      "l15": "- Normes ISO 9001",
+      "l16": "- Méthode HACCP",
+      "l17": "- Guide des Bonnes Pratiques d'Hygiène",
+      "l18": "- Système de traçabilité et procédure de retrait/rappelle"
+    },
+    "2" : {
+      "l1": "Biologie moléculaire",
+      "l2": "- Réaction en chaine par polymerase (PCR)",
+      "l3": "- Design d'amorces",
+      "l4": "- Extraction et purification d'ADN",
+      "l5": "- Clonage",
+      "l6": "- Transformation cellulaire",
+      "l7": "- CRISPR-Cas9",
+      "l8": "- Électrophorèse sur gel d'agarose",
+      "l9": "Bio-informatique",
+      "l10": "- Biostatistiques (Logiciel R)",
+      "l11": "- Utilisation de logiciels de génomique (Clustal, Snapgene, Seaview, Prosite, Antismash...)",
+      "l12": "- Analyse de résultats (BioEdit, Graphpad Prism...)",
+      "l13": "Microbiologie",
+      "l14": "- Culture de microorganismes",
+      "l15": "- Culture cellulaire",
+      "l16": "- Dénombrement",
+      "l17": "- Identification de microorganismes",
+      "l18": "Biologie végétale",
+      "l19": "- Culture in vitro",
+      "l20": "Enzymologie",
+      "l21": "- Utilisation de bio reacteur"
+  
+    },
+    "3" : {
+      "l1": "Langages/technologies informatiques",
+      "l2": "- Langage R",
+      "l3": "- Java/JEE",
+      "l4": "- Cobol Mainframe",
+      "l5": "- Job control language (JCL)",
+      "l6": "- Angular",
+      "l7": "- HTML",
+      "l8": "- CSS",
+      "l9": "Gestion de base de données",
+      "l10": "- MySQL",
+      "l11": "- Oracle",
+      "l12": "- MongoDB",
+      "l13": "Logiciels de retouche photographique",
+      "l14": "- Photofiltre 7",
+      "l15": "- Adobe Photoshop CS6",
+      "l16": "- Paint Shop pro",
+      "l17": "Logiciels de montage vidéo",
+      "l18": "- Corel Video Studio",
+      "l19": "- Adobe Premiere Pro CS6",
+      "l20": "Logiciel de bureautique",
+      "l21": "- Pack office (Word, Excel, Powerpoint, Visio)",
+      "l22": "Pratique de pilotage",
+      "l23": "- Méthode AGILE"
+  
+    },
+    "4" : {
+      "l1": "Méthodes d'analyses en laboratoire",
+      "l2": "- Spectrométrie",
+      "l3": "- Spectrophotométrie",
+      "l4": "- Chromatographies",
+      "l5": "- ELISA",
+      "l6": "Methodologie de travail",
+      "l7": "- Formulation de produits alimentaires",
+      "l8": "- Mise au point de plan d'experience",
+      "l9": "- Optimisation de protocole de laboratoire",
+      "l10": "- Réalisation de recherches bibliographiques",
+      "l11": "- Rédaction d'un cahier de laboratoire",
+      "l12": "- Réalisation de poster scientifique",
+      "l13": "- Retrodocumentation",
+      "l14": "- Création de support de formation",
+      "l15": "- Connaissance des bonnes pratiques de laboratoire",
+      "l16": "Compétences annexes",
+      "l17": "- Gestion de projet",
+      "l18": "- Management",
+      "l19": "- Marketing et economie",
+      "l20": "Langue",
+      "l21": "- Anglaise : Lu, écrite et parlé (courant et scientifique)"
+    }
+    
+  },
+  
+"mentions" : {
+  "mentiontitre" : "Mentions légales",
+  "perso" : "Informations personnelles",
+  "hebergeur" : "Hebergeur",
+  "mentiontexte" : "L’ensemble de ce site relève des législations françaises et internationales sur le droit d’auteur et la propriété intellectuelle. Tous les droits de reproduction sont réservés, y compris pour les documents iconographiques et photographiques.",
+  "hebergeurtexte" : "Le site est hébergé par la société Heroku Inc., 650 7th Street, San Francisco, CA (tel : +33 1 (877) 563-4311)."
 }
+
+
+
+
+
+}
+

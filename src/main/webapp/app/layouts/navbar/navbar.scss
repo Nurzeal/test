@@ -28,15 +28,19 @@ Navbar
     font-weight: 400;
   }
 }
+.navpolice {
+  font-size: 20px;
+  font-weight: bold;
+}
 
 /* ==========================================================================
 Logo styles
 ========================================================================== */
 .logo-img {
-  height: 45px;
-  width: 45px;
+  height: 60px;
+  width: 100px;
   display: inline-block;
   vertical-align: middle;
-  background: url('../../../content/images/logo-jhipster.png') no-repeat center center;
+  background: url('/../../content/images/dna.png') no-repeat center center;
   background-size: contain;
 }

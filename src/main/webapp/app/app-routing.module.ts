@@ -3,29 +3,39 @@ import { RouterModule } from '@angular/router';
 import { errorRoute } from './layouts/error/error.route';
 import { navbarRoute } from './layouts/navbar/navbar.route';
 import { DEBUG_INFO_ENABLED } from 'app/app.constants';
-import { Authority } from 'app/shared/constants/authority.constants';
 
 import { UserRouteAccessService } from 'app/core/auth/user-route-access-service';
+import { CvComponent } from './cv/cv.component';
+import { ContactComponent } from './contact/contact.component';
+import { MentionLegalesComponent} from './mention-legales/mention-legales.component';
+import { CompetencesComponent } from './competences/competences.component'
 
 const LAYOUT_ROUTES = [navbarRoute, ...errorRoute];
 
 @NgModule({
   imports: [
+
     RouterModule.forRoot(
       [
         {
           path: 'admin',
           data: {
-            authorities: [Authority.ADMIN],
+            authorities: ['ROLE_ADMIN']
           },
           canActivate: [UserRouteAccessService],
-          loadChildren: () => import('./admin/admin-routing.module').then(m => m.AdminRoutingModule),
+          loadChildren: () => import('./admin/admin-routing.module').then(m => m.AdminRoutingModule)
         },
-        ...LAYOUT_ROUTES,
+        { path: 'cv', component : CvComponent },  
+        { path: 'contact', component : ContactComponent }, 
+        { path: 'mention', component : MentionLegalesComponent }, 
+        { path: 'competences', component : CompetencesComponent},
+
+        ...LAYOUT_ROUTES
       ],
-      { enableTracing: DEBUG_INFO_ENABLED }
-    ),
+      { scrollPositionRestoration : 'top',
+        enableTracing: DEBUG_INFO_ENABLED },
+    )
   ],
-  exports: [RouterModule],
+  exports: [RouterModule]
 })
-export class TestAppRoutingModule {}
+export class CvWebHenryAppRoutingModule {}

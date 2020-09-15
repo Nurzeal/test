@@ -12,8 +12,7 @@
     },
     "indicator": {
       "diskSpace": "Espace disque",
-      "mail": "Email",
-      "ping": "Application"
+      "mail": "Email"
     },
     "table": {
       "service": "Nom du service",

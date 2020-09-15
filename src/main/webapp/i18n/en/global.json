@@ -1,9 +1,12 @@
 {
   "global": {
-    "title": "Test",
+    "title": "Kilian HENRY",
     "browsehappy": "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/?locale=en\">upgrade your browser</a> to improve your experience.",
     "menu": {
-      "home": "Home",
+      "home": "Homepage",
+      "cv": "CV",
+      "competences" : "Skills",
+      "contact": "Contact",
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Entities",
@@ -129,11 +132,289 @@
     "userexists": "Login name already used!",
     "emailexists": "Email is already in use!",
     "idexists": "A new {{ entityName }} cannot already have an ID",
-    "idnull": "Invalid ID",
-    "file": {
-      "could.not.extract": "Could not extract file",
-      "not.image": "File was expected to be an image but was found to be \"{{ fileType }}\""
-    }
+    "idnull": "Invalid ID"
   },
-  "footer": "This is your footer"
+  "footer": {
+    "liens": "Follow me on :",
+    "coordonées": "Contact information",
+    "contact": "&emsp; Contact",
+    "telecharger": "Download my CV",
+    "mention": "Legal disclaimer",
+    "langue": "Language :",
+    "texte1": " Thank you for visiting my CV website. Interested in my profile ? You can reach me via the dedicated page for further information.",
+    "texte2": " Any comments or remarks concerning my page are also welcome !",
+    "droits": "Kilian HENRY - 2020 - All right reserved"
+  },
+
+  "CV": {
+    "titrecv" : "Curriculum vitae",
+    "parcours" : "My story",
+    "formation" : "University course and training",
+    "chrono" : "Timeline",
+    "taches" : "Performed tasks :",
+    "commentaires" : "Comments :",
+    "com" : "This timeline is not exhaustive and represent the most important milestone of my university and professional course.",
+
+    "1" : {
+      "l1": "Technical Baccalaureate : 'Sciences et Techniques de l'Agronomie et du Vivant'",
+      "l2": "'Food processing' option",
+      "l3": "2009 - 2013 (4 years)",
+      "l4": "Interested by the agriculture since a long time, and after a discovery internship in secondaryschool I made in a farm, I decided to do a baccalaureate in this field. The 'food processing' option proposed by the highschool had my curiosity, and the teachings as well as the numerous pratical work of a technical formation conviced me to keep up in this field. This was also the opportunity to approch the professionnal work by realizing a five weeks internship."
+    },
+
+
+    "2" : {
+      "l1": "Internship",
+      "l2": "Subject : What are the manufacturing differences between two différent cheese appelations (cottage cheese and Neufchâtel) ?",
+      "l3": "3 weeks and 2 weeks respectively",
+      "l4": "The subject of this internship was to compare the processing differences between two products with the 'cheese' appelation. To do so, I took part in manufacturing on two different sites in order to study the processes specific to each one.",
+      "l5": "Manufacturing analysis and process redaction for each product",
+      "l6": "Dairy products manufacturing (cream, cottage cheese, Neufchâtel), as well as apple drinks (apple juice, cider, Calavdos)",
+      "l7": "Meal preparation for the restaurant (ferme du Beau Soleil)",
+      "l8": "Packaging, bottling and labelling of products",
+      "l9": "As a first real experience in the professional world, it was for me the occasion to learn in condition from people passionate about their profession."
+    },
+
+    "3" : {
+      "l1": "Two year technical degree : 'Sciences et Technologies des Aliments'",
+      "l2": "2013 - 2015 (2 years)",
+      "l3": "Wishing to developp my knowledge in the agrofood processing field, I decided to continue with a 'Sciences et Technologies des Aliments' two year technical degree, during which I grew a real passion for research and development, thanks to an 'innovation' module and a three month internship."
+    },
+  
+    "4" : {
+      "l1": "Internship",
+      "l2": "2 weeks",
+      "l3": "Manufacturing focused internship inside a luxury chocolate factory.",
+      "l4": "Chocolates manufacturing",
+      "l5": "Products quality check",
+      "l6": "Trainee management",
+      "l7": "These two weeks of additional experiences allowed me to work within a small team full of experienced people, possessing a world wide recognized expertise."  
+    },
+
+    "5" : {
+      "l1": "Internship",
+      "l2": "Subject : Developpment of a method to preserve peeled apples against enzymatic browning",
+      "l3": "June / july 2014 - March 2015",
+      "l4": "The peeling of apples is a step that require an important preparation time for cleaning and desinfecting the peeling machine. So, it is better to peel a large amount of apples in one use. However, peeled apples are subject to enzymatic browning, which lead to degraded organoleptic qualities. My main goal was to find a way to preserve peeled apples from enzymatic browning.",
+      "l5": "Bibliography research on methods of preserving peeled apples",
+      "l6": "Research and contact of suppliers of machines and raw materials",
+      "l7": "Development of an experiment plan and analysis of the results of the various methods used",
+      "l8": "Creation of a scalable excel spreadsheet allowing the comparison of the prices of the different raw material suppliers",
+      "l9": "Processing and packaging of jams, jelly and chutney",
+      "l10": "Among the methods proposed and tested (Vacuum or modified atmosphere, freezing, blanching, and use of additives such as ascorbic acid and sulphites), it is the vacuum that has been selected, taking into account the result, the cost of the method and the quality of the final product. The excel spredsheet of supplier comparisons is also in place within the company. This internship was therefore the opportunity to gain a concrete understanding of the field of research and development, taking into account the reality of companies and the various inherent obstacles (product image, cost, ease of implementation, etc.)."
+    },
+ 
+    "6" : {
+      "l1": "Professional degree : 'FODIPA'",
+      "l2": "2015 - 2016 (1 year)",
+      "l3": "In order to specialize in the 'Research and Development', I did a 'FODIPA' professional degree to strengthen my knowledge in the agrofood sector and to develop the methodology specific to research. The many practical work as well as the 3-month internship also contributed to increasing my technical skills."
+    },
+
+    "7" : {
+      "l1": "Internship",
+      "l2": "Creation of an accreditation application file",
+      "l3": "From June to September 2016 (3 month internship), and July-August 2017 (2 month student contract)",
+      "l4": "Within a legal context and economics benefits, my contribution to the 'Panier de Léonie' was to create of an accreditation application file. For the realization of the latter, and with the help of ADVPLHN, I analyzed all the food process as well as the flows to produce the legal documents (HACCP, production diagram, GBPH posters ...). I also participate in the processing of dairy products on site and the delivery of orders.",
+      "l5": "Risk analysis related to food processing for the development of the 'Hazard Analysis Critical Control Point' (HACCP) method",
+      "l6": "Listing of the flow and storage of raw materials and finished products, and creation of a production diagram for each processed product.",
+      "l7": "Responsible for discussions with the A.D.V.P.L.H.N for the preparation of the accreditation application file",
+      "l8": "Establishment of a product traceability system to establish withdrawal / recall procedures",
+      "l9": "Processing of ice cream and sorbet, dairy products (cottage cheese, butter, cream ...)",
+      "l10": "Delivery of products to various customers (restaurants, supermarkets, etc.)",
+      "l11": "Creation of 'Good hygienic practices' sheets available on site",
+      "l12": "All the documents necessary for the completion of the accreditation application file were produced over the duration of the internship. The file was formatted and sent to the A.D.V.P.L.H.N for evaluation. When I returned in 2017, work on the premises were in progress in order to be able to submit and validate the file. This was an opportunity to put the knowledge acquired during my school formation in application for the development of a company, and thus to bring a new perspective within a structure having an atmosphere favorable to professional development."
+    },
+
+  "8" : {
+    "l1": "Bachelor degree : 'Life sciences'",
+    "l2": "'Molecular and Cellular Biology' course",
+    "l3": "2016 - 2017 (1 year)",
+    "l4": "Wishing to continue my studies in Master 'Nutrition and Food Sciences', I first wanted to do a license in 'Life Sciences', 'Molecular and Cellular Biology' option in order, on one hand, to have theoretical knowledge in biology necessary for understanding the mechanisms of the living, justifying the need to develop modern food, and on the other hand, to familiarize myself with the specificities of general education. I was therefore able to acquire new knowledge in the fields of molecular, animal and plant biology, bioinformatics, biostatistics, enzymology, as well as to discover new methods of laboratory analyzes."
+  },
+
+  "9" : {
+    "l1": "Master's degree 'Nutrition et Sciences des Aliments'",
+    "l2": "'Innovation en Biotechnologies Végétales, Enymatiques, et Microbiologiques' courses",
+    "l3": "2017- 2019 (2 years)",
+    "l4": "This 'Nutrition et Sciences des Aliments' research master's degree, 'Innovation en Biotechnologies Végétales, Enymatiques et Microbiologiques' course represents the culmination of my university course. It allowed me to develop my knowledge in the fields of agrofood, biology and research and development. During these two years, I was able to acquire, through practical work as well as the research project, a work methodology specific to the world of research."
+  },
+
+  "10" : {
+    "l1": "Delivery man",
+    "l2": "From December 2017 to January 2020 (2 years)",
+    "l3": "Student job as a delivery man in Lille area (10 km radius), with a scooter or a car",
+    "l4": "Delivery of food in time and hygienic rules",
+    "l5": "Preparation of orders",
+    "l6": "Training of newcomers",
+    "l7": "Reserve organization",
+    "l8": "Table setting and dishes",
+    "l9": "I learned a lot from this work in terms of customer relations and teamwork. Deliver the food in time sometimes required to work under pressure, and versatility was required because of the many tasks to be performed."
+  },
+
+  "11" : {
+    "l1": "Research project",
+    "l2": "Exploration and development of the CRISPR-Cas9 mutation method on Paraburkholderia rhizoxinica. Application to the disruption of NRPS genes.",
+    "l3": "From January to June 2019 (6 months)", 
+    "l4": "Carried out under the supervision of Dr.Valérie LECLERE and Dr.Matthieu DUBAN, this research project consisted in the development of the elements allowing the interruption of three NRPS genes ('Non Ribosomal Peptide Synthethase'). To do this, I had to use the tools of molecular biology (PCR, transformation...), bioinformatics (gel analysis software, visualization of the bacterial genome, etc.) and microbiology (bacteria culture).",
+    "l5": "Import of the CRISPR-Cas9 method and development of mutation tools for GRAM negative bacteria",
+    "l6": "Genomic study of Paraburkholderia rhizoxinica and design of specific primers",
+    "l7": "Implementation and optimization of molecular biology protocols",
+    "l8": "Use of bioinformatics software for the simulation and interpretation of experimental results.",
+    "l9": "Bibliographic research specific to NRPS",
+    "l10": "All the tools have been produced for the mutation of the target genes. However, the extremely difficult culture conditions (the bacteria being initially endosymbiotic of a fungus) as well as the generation time did not allow me to complete the transformation of the latter over the duration of the project. The multidisciplinary approach of the subject as well as the many exchanges that I had with scientists from differents backgrounds etablished a favorable climate for my professional development. Moreover, it was the opportunity for me to make my contribution to science"
+  },
+
+  "12" : {
+    "l1": "JAVA/JEE Big Data Certification",
+    "l2": "From September 2019 to January 2019 (4 month)",
+    "l3": "I decided, at the end of my graduation, to do a 57 days training course to approach the profession of Fullstack developer in order to improve my computer skills. The training offered content ranging from UML, backend programming (JAVA) with design patterns, the use of JEE frameworks, SOA architecture and database management systems such as Oracle and MySQL, frontend with HTML, CSS and Javascript, and Angular technology."
+  },
+
+  "13" : {
+    "l1": "Software development engineer",
+    "l2": "ADAMING Group (Mission for of Sopra Steria) - Rodez (12)",
+    "l3": "Since Janvuary 2020",
+    "l4": "Mission within a TMA center (Application management) in the banking sector, my tasks mainly consist in the maintenance and evolution of the applications in place within the Société Générale",
+    "l5": "Retro documentation and creation of application documentation",
+    "l6": "Technical tests, evolutions and software fixes",
+    "l7": "Application evolution costing",
+    "l8": "During this experience, I was able to learn COBOL language and Job Control Language (JCL). It was also an opportunity to work on man-machine interfaces in JAVA. I was able to professionally understand the world of IT within an AGILE method, in a sector where compliance with customer specifications and deadlines are essential."
+  },
+  "ADN" : {
+    "1" : "The base pair is yet to be discovered",
+    "2" : "As soon as possible",
+    "3" : "The nucleotide are still unknown. I'm looking for a company to help me continue the sequencing of my CV.",
+    "4" : "Internship",
+    "5" : "Delivery man",
+    "6" : "Research project",
+    "7" : "Software engineer",
+    "8" : "Unknown bp",
+    "detail": "Hover the cursor over each experience for details"
+  }
+  },
+"contact": {
+  "contact" : "Contact",
+  "coordonées" : "Personnal informations",
+  "form" : "Contact form"
+},
+
+"competences": {
+  "certif" : "My certifications",
+  "info" : "In informatic :",
+  "anglais" : "In english",
+  "titrecomp" : "My skills and certifications",
+  "competences" : "My skills",
+  "agroalimentaire" : "Food-Processing",
+  "biologie" : "Biology",
+  "informatique" : "Informatics",
+  "r&d" : "R&D",
+  
+  "1" : {
+    "l1": "Food processing",
+    "l2": "- Dairy products (cheeses, icecream, butter, cream...)",
+    "l3": "- Apple drinks (apple juice, cider, Calvados)",
+    "l4": "- Sweet products (Jam and jelly, chocolates)",
+    "l5": " Industrial engineering",
+    "l6": "- Use of food processing machines at laboratory and pilot scale (tubular exchanger, concentration equipment, autoclave, atomization tower)",
+    "l7": "- Knowledge in the differents unit operations",
+    "l8": "- level 1 maintenance",
+    "l9": "Analysis",
+    "l10": "- Microbiological",
+    "l11": "- Physico-chemical",
+    "l12": "- Sensory",
+    "l13": "Standards and quality",
+    "l14": "- Knowledge of the 'paquet Hygiène'",
+    "l15": "- ISO 9001 standard",
+    "l16": "- HACCP method",
+    "l17": "- Good hygiene practices guide",
+    "l18": "- Traceability system and withdrawal / recall procedure"
+  },
+  "2" : {
+    "l1": "Molecular biology",
+    "l2": "- Polymerase Chain Reaction (PCR)",
+    "l3": "- Primer design",
+    "l4": "- DNA extraction and purification",
+    "l5": "- Bacterial cloning",
+    "l6": "- Cellular transformation",
+    "l7": "- CRISPR-Cas9",
+    "l8": "- Agarose gel electrophoresis",
+    "l9": "Bioinformatics",
+    "l10": "- Biostatistics (R software)",
+    "l11": "- Use of genomics softwares (Clustal, Snapgene, Seaview...)",
+    "l12": "- Results analysis (BioEdit, Graphpad Prism...)",
+    "l13": "Microbiology",
+    "l14": "- Microorganisms culture",
+    "l15": "- Cellular culture",
+    "l16": "- Bacterial enumeration",
+    "l17": "- Microorganisms indentification",
+    "l18": "Vegetal biology",
+    "l19": "- in vitro culture",
+    "l20": " Enzymology",
+    "l21": "- Bio reactor usage"
+
+  },
+  "3" : {
+    "l1": "Languages/informatics technology",
+    "l2": "- R langage",
+    "l3": "- Java/JEE",
+    "l4": "- Cobol Mainframe",
+    "l5": "- Job control language (JCL)",
+    "l6": "- Angular",
+    "l7": "- HTML",
+    "l8": "- CSS",
+    "l9": "Database management",
+    "l10": "- MySQL",
+    "l11": "- Oracle",
+    "l12": "- MongoDB",
+    "l13": "Picture editing softwares",
+    "l14": "- Photofiltre 7",
+    "l15": "- Adobe Photoshop CS6",
+    "l16": "- Paint Shop pro",
+    "l17": "Video editing softwares",
+    "l18": "- Corel Video Studio",
+    "l19": "- Adobe Premiere Pro CS6",
+    "l20": "Office softwares",
+    "l21": "- Microsoft Office (Word, Excel, Powerpoint, Visio)",
+    "l22": "Piloting practice",
+    "l23": "- AGILE piloting"
+
+  },
+  "4" : {
+    "l1": "Laboratory analysis methods",
+    "l2": "- Spectrométry",
+    "l3": "- Spectrophotométry",
+    "l4": "- Chromatography",
+    "l5": "- ELISA",
+    "l6": "Work methodologies",
+    "l7": "- Food product formulation",
+    "l8": "- Development of an experiment plan",
+    "l9": "- laboratory protocol optimization",
+    "l10": "- Bibliographic research",
+    "l11": "- Laboratory notebook writing",
+    "l12": "- Scientific poster making",
+    "l13": "- Retrodocumentation",
+    "l14": "- Formation support creation",
+    "l15": "- Knowledge of good laboratory practices",
+    "l16": "Additional skills",
+    "l17": "- Project management",
+    "l18": "- Team management",
+    "l19": "- Economy and marketing",
+    "l20": "Langage",
+    "l21": "- English : Reading, writting and speaking (fluent and scientific level)"
+
+  }
+
+  
+},
+
+"mentions" : {
+  "mentiontitre" : "Legal disclaimer",
+  "perso" : "Personnal information",
+  "hebergeur" : "Site host",
+  "mentiontexte" : "This entire site is subject to French and international legislation on copyright and intellectual property. All reproduction rights are reserved, including for iconographic and photographic documents.",
+  "hebergeurtexte" : "Thhis website is hosted by Heroku Inc., 650 7th Street, San Francisco, CA (tel : +33 1 (877) 563-4311)."
 }
+
+
+}
+

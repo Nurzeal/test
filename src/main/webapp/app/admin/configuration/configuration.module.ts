@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { TestSharedModule } from 'app/shared/shared.module';
+import { CvWebHenrySharedModule } from 'app/shared/shared.module';
 
-import { ConfigurationComponent } from './configuration.component';
+import { JhiConfigurationComponent } from './configuration.component';
 
 import { configurationRoute } from './configuration.route';
 
 @NgModule({
-  imports: [TestSharedModule, RouterModule.forChild([configurationRoute])],
-  declarations: [ConfigurationComponent],
+  imports: [CvWebHenrySharedModule, RouterModule.forChild([configurationRoute])],
+  declarations: [JhiConfigurationComponent]
 })
 export class ConfigurationModule {}

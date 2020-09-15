@@ -1,0 +1,20 @@
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+
+.logo-lk {
+  height: 90px;
+  width: 180px;
+  display: inline-block;
+  vertical-align: middle;
+  background: url('/../../content/images/logolk.png') no-repeat center center;
+  background-size: contain;
+}
+.img-cv {
+  height: 280px;
+  width: 180px;
+  display: inline-block;
+  vertical-align: middle;
+  background: url('/../../content/images/CVPDF.png') no-repeat center center;
+  background-size: contain;
+  border-width: 2px;
+}

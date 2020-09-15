@@ -1,19 +1,39 @@
 {
   "home": {
-    "title": "Bienvenue, Java Hipster !",
-    "subtitle": "Ceci est votre page d'accueil",
-    "logged": {
-      "message": "Vous êtes connecté en tant que \"{{username}}\"."
-    },
-    "question": "Si vous avez des questions à propos de JHipster :",
-    "link": {
-      "homepage": "Page d'accueil de JHipster",
-      "stackoverflow": "JHipster sur Stack Overflow",
-      "bugtracker": "JHipster bug tracker",
-      "chat": "JHipster public chat room",
-      "follow": "Suivez @jhipster sur Twitter"
-    },
-    "like": "Si vous aimez JHipster, donnez nous une étoile sur",
-    "github": "GitHub "
+    "title": "Site CV de Kilian HENRY",
+    "titre": " Ingenieur de recherche",
+    "acceuil": "Accueil",
+    "presperso": "Présentation personnelle",
+    "pressite": "Aperçu du site",
+    "compétences" : "Mes compétences",
+    "textperso1" : "Actuellement en recherche d'un poste d'",
+    "textperso112": "Ingénieur de recherche.",
+    "textperso113": "Jeune diplômé d'un Master en ",
+    "textperso2" : "'Nutrition et Sciences des Aliments'",
+    "textperso3" : "(Parcours :",
+    "textperso4" : "'Innovation en Biotechnologie Végétales, Enzymatiques et Microbiologiques'",
+    "textperso5" : "), j'ai par la suite décidé de suivre",
+    "textperso6" : "une formation qualifiante",
+    "textperso7" : "JAVA/JEE Big Data",
+    "textperso8" : "dans le but d'élargir mon champ de compétence et de mieux appréhender les outils de la ",
+    "textperso9" : "bio-informatique.",
+    "textperso10" : "Mon cursus universitaire alliant connaissances théoriques et compétences pratiques dans des domaines pluridisciplinaires, renforcé par une expérience professionnelle acquise au cours de stages et divers emplois,",
+    "textperso11" : "m'a apporté des capacités d'autonomie, de travail en équipe, d'adaptation ainsi qu'une certaine rigueur.",
+    "textperso12" : "De nature curieuse et fasciné par la science et les nouvelles technologies, (plus particulièrement des domaines de la ",
+    "textperso13" : "biologie",
+    "textperso14" : "et de l'",
+    "textperso15" : "informatique",
+    "textperso16" : "), je souhaite élargir mes connaissances et développer mes compétences en relevant de nouveaux défis.",
+    "textsite1" : "Ce site web a été créé dans l’optique de vous présenter mon ",
+    "textsite2" : "curriculum vitae ",
+    "textsite3" : "d’une manière plus originale permettant de s’affranchir des « contraintes » d’une présentation classique, et surtout, d’accroitre mes connaissances de manière ludique.",
+    "textsite4" : "Ce site a été réalisé par l’utilisation de langage",
+    "textsite5" : "HTML, CSS et SVG",
+    "textsite6" : "ainsi que du framework",
+    "textsite7" : "Angular",
+    "textsite8" : "via",
+    "textsite9" : "Microsoft Visual Studio Code ",
+    "textsite10": "et le générateur d’application",
+    "textsite11": "JHipster."
   }
 }

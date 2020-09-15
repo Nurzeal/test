@@ -1,19 +1,39 @@
 {
   "home": {
-    "title": "Welcome, Java Hipster!",
-    "subtitle": "This is your homepage",
-    "logged": {
-      "message": "You are logged in as user \"{{username}}\"."
-    },
-    "question": "If you have any question on JHipster:",
-    "link": {
-      "homepage": "JHipster homepage",
-      "stackoverflow": "JHipster on Stack Overflow",
-      "bugtracker": "JHipster bug tracker",
-      "chat": "JHipster public chat room",
-      "follow": "follow @jhipster on Twitter"
-    },
-    "like": "If you like JHipster, don't forget to give us a star on",
-    "github": "GitHub"
+    "title": "Kilian HENRY's CV Website",
+    "titre":  "Research engineer",
+    "acceuil": "Homepage",
+    "presperso": "Personnal presentation",
+    "pressite": "Website overview",
+    "compétences" : "My skills",
+    "textperso1" : "Currently looking for a",
+    "textperso112": "Research engineer position.",
+    "textperso113": "Recently graduated from a",
+    "textperso2" : "'Nutrition et Sciences des Aliments'",
+    "textperso3" : "master's degree (Option :",
+    "textperso4" : "'Innovation en Biotechnologie Végétales, Enzymatiques et Microbiologiques'",
+    "textperso5" : "), I decided to follow",
+    "textperso6" : "a qualifying training course in programming in",
+    "textperso7" : "JAVA/JEE Big Data",
+    "textperso8" : "in order to broaden my field of expertise and have a better understanding of the",
+    "textperso9" : "bioinformatics field.",
+    "textperso10" : "My university course, combining theoretical knowlegde and practical skills in these multi-disciplinary fields, is reinforced by professionnal experience obtained during internship and various jobs,",
+    "textperso11" : "which gave me the capacity to work in autonomy, teamwork and adaptation skills.",
+    "textperso12" : "Curious in nature and fascinated by sciences and new technology, (especially in ",
+    "textperso13" : "biology",
+    "textperso14" : "and",
+    "textperso15" : "informatic",
+    "textperso16" : "), I would like to expand my knowledge and devellop my skills while facing new challenges.",
+    "textsite1" : "I created this website in order to present you my",
+    "textsite2" : "Curriculum vitae ",
+    "textsite3" : "in a more original approach, which allow me to bypass the constraint of a classical presentation, and most importantly, to improve my knowledge in a really enjoyable way.",
+    "textsite4" : "It was written using",
+    "textsite5" : "HTML, CSS and SVG",
+    "textsite6" : "language and the",
+    "textsite7" : "Angular",
+    "textsite8" : "framework with",
+    "textsite9" : "Microsoft Visual Studio Code ",
+    "textsite10": "and the open source application generator",
+    "textsite11": "JHipster."
   }
 }

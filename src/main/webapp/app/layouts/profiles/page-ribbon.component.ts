@@ -10,14 +10,14 @@ import { ProfileService } from './profile.service';
       <a href="" jhiTranslate="global.ribbon.{{ ribbonEnv }}">{{ ribbonEnv }}</a>
     </div>
   `,
-  styleUrls: ['page-ribbon.scss'],
+  styleUrls: ['page-ribbon.scss']
 })
 export class PageRibbonComponent implements OnInit {
-  ribbonEnv$?: Observable<string | undefined>;
+  ribbonEnv$: Observable<string>;
 
   constructor(private profileService: ProfileService) {}
 
-  ngOnInit(): void {
+  ngOnInit() {
     this.ribbonEnv$ = this.profileService.getProfileInfo().pipe(map(profileInfo => profileInfo.ribbonEnv));
   }
 }
